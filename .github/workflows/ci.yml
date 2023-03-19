@@ -22,5 +22,7 @@ jobs:
       run: rm -rf __MACOSX/ build
     - name: download libs
       run: cd CI_scripts && chmod +x download_libs.sh && ./download_libs.sh
+    - name: download libimobiledevice
+      run: cd CI_scripts && chmod +x download_headers.sh && ./download_headers.sh
     - name: build
       run: ./compile
