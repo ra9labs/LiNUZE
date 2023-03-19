@@ -25,7 +25,7 @@ jobs:
     - name: download libimobiledevice
       run: cd CI_scripts && chmod +x download_headers.sh && ./download_headers.sh
     - name: regrets
-      run: mkdir IOKit && cd IOKit && cp /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/ .
+      run: mkdir IOKit && cd IOKit && cp -r /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/ .
     - name: env
       run: pwd && ls
     - name: build
