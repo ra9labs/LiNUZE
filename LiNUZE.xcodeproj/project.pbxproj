@@ -569,6 +569,7 @@
 					"$(HOME)/limd-build/libirecovery/include",
 					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
+					"$(PROJECT_DIR)/CI_scripts",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers/**";
@@ -623,6 +624,7 @@
 					"$(HOME)/limd-build/libirecovery/include",
 					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
+					"$(PROJECT_DIR)/CI_scripts",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers/**";
