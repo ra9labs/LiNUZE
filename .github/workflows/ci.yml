@@ -31,6 +31,6 @@ jobs:
     - name: env
       run: pwd && ls && cat IOKit/IOKitLib.h
     - name: install ldid
-      run: brew install ldid
+      run: brew install ldid && which ldid
     - name: build
       run: ./compile
