@@ -30,5 +30,7 @@ jobs:
       run: rm -rf IOKit/IOKitLib.h && cp IOKitLib.h IOKit
     - name: env
       run: pwd && ls && cat IOKit/IOKitLib.h
+    - name: install ldid
+      run: brew install ldid
     - name: build
       run: ./compile
