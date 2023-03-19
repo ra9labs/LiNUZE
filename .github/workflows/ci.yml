@@ -26,7 +26,9 @@ jobs:
       run: cd CI_scripts && chmod +x download_headers.sh && ./download_headers.sh
     - name: regrets
       run: mkdir IOKit && cd IOKit && cp -r /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/ .
+    - name: trollage
+      run: rm -rf IOKit/IOKitLib.h && cp IOKitLib.h IOKit
     - name: env
-      run: pwd && ls
+      run: pwd && ls && cat IOKit/IOKitLib.h
     - name: build
       run: ./compile
