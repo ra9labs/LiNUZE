@@ -1,0 +1,26 @@
+name: LiNUZE
+
+on:
+  push:
+      branches: [ main ]
+  pull_request:
+      branches: [ main ]
+
+jobs:
+
+  build-iphoneos:
+    runs-on: macos-12
+    steps:
+    - name: envdetails
+      run: ls && echo && pwd
+    - uses: actions/checkout@v2
+    - name: envdetails
+      run: ls && echo && pwd
+    - name: gethash
+      run: git_hash=${GITHUB_SHA::6} && echo $git_hash
+    - name: cleanup
+      run: rm -rf __MACOSX/ build
+    - name: download libs
+      run: cd CI_scripts && chmod +x download_libs.sh && ./download_libs
+    - name: build
+      run: ./compile
