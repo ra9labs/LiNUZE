@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		64020DBB28AAF813003E7436 /* LDD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64020DB928AAF813003E7436 /* LDD.mm */; };
 		640ED2AD29ABBB6D007F3869 /* NormalModeOperations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 640ED2AC29ABBB6D007F3869 /* NormalModeOperations.mm */; };
+		641ACC9729C77CA100BE4442 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641ACC9629C77CA000BE4442 /* IOKit.framework */; };
 		6423270228ABB7140086C961 /* SFMonoRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6423270128ABB7140086C961 /* SFMonoRegular.otf */; };
 		6437177229B682840061D4D0 /* Landing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6437177129B682840061D4D0 /* Landing.mm */; };
 		643799FA29990FA700607ECE /* USBUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 643799F929990FA700607ECE /* USBUtils.mm */; };
 		6446AFD729BE3DD70003645F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6446AFD629BE3DD70003645F /* Entitlements.plist */; };
 		64D0FA4A29A4C39B00553AFB /* LiNUZPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D0FA4929A4C39B00553AFB /* LiNUZPrefs.plist */; };
 		64D0FA4C29A4C3D400553AFB /* PlistModifier.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64D0FA4B29A4C3D400553AFB /* PlistModifier.mm */; };
-		64FED8F52995586E00DCA4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F32995586E00DCA4F3 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		64FED8F52995586E00DCA4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F32995586E00DCA4F3 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		64FED8F62995586E00DCA4F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F42995586E00DCA4F3 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		64FED8F8299558D400DCA4F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F7299558D400DCA4F3 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		69F5F81A29C75F7400D60170 /* libimobiledevice.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5F81529C75F7200D60170 /* libimobiledevice.6.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -36,6 +37,7 @@
 		64020DBA28AAF813003E7436 /* LDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDD.h; sourceTree = "<group>"; };
 		640ED2AC29ABBB6D007F3869 /* NormalModeOperations.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NormalModeOperations.mm; sourceTree = "<group>"; };
 		640ED2AE29ABBB8D007F3869 /* NormalModeOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalModeOperations.h; sourceTree = "<group>"; };
+		641ACC9629C77CA000BE4442 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		6423270128ABB7140086C961 /* SFMonoRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFMonoRegular.otf; sourceTree = "<group>"; };
 		6437177129B682840061D4D0 /* Landing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Landing.mm; sourceTree = "<group>"; };
 		6437177329B682910061D4D0 /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				69F5F81E29C75F7400D60170 /* libcrypto.1.1.dylib in Frameworks */,
 				69F5F82029C75F7400D60170 /* libirecovery.3.dylib in Frameworks */,
 				69F5F82229C75F7400D60170 /* libusb-1.0.0.dylib in Frameworks */,
+				641ACC9729C77CA100BE4442 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 		64020DA628AAF6EB003E7436 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				641ACC9629C77CA000BE4442 /* IOKit.framework */,
 				69F5F81729C75F7300D60170 /* libcrypto.1.1.dylib */,
 				69F5F81529C75F7200D60170 /* libimobiledevice.6.dylib */,
 				69F5F81829C75F7300D60170 /* libirecovery.3.dylib */,
