@@ -9,22 +9,20 @@
 /* Begin PBXBuildFile section */
 		64020DBB28AAF813003E7436 /* LDD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64020DB928AAF813003E7436 /* LDD.mm */; };
 		640ED2AD29ABBB6D007F3869 /* NormalModeOperations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 640ED2AC29ABBB6D007F3869 /* NormalModeOperations.mm */; };
-		640ED2E529ABBDB8007F3869 /* libimobiledevice-1.0.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 640ED2E429ABBDB8007F3869 /* libimobiledevice-1.0.6.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6423270228ABB7140086C961 /* SFMonoRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6423270128ABB7140086C961 /* SFMonoRegular.otf */; };
-		642EE5AE29B35DEE008C790F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642EE5AD29B35DEE008C790F /* IOKit.framework */; };
 		6437177229B682840061D4D0 /* Landing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6437177129B682840061D4D0 /* Landing.mm */; };
 		643799FA29990FA700607ECE /* USBUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 643799F929990FA700607ECE /* USBUtils.mm */; };
 		6446AFD729BE3DD70003645F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6446AFD629BE3DD70003645F /* Entitlements.plist */; };
-		647A3705299C430B00D6A60D /* libusbmuxd.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 647A3700299C430B00D6A60D /* libusbmuxd.6.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
-		647A3707299C430B00D6A60D /* libirecovery.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 647A3702299C430B00D6A60D /* libirecovery.3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
-		647A3708299C430B00D6A60D /* libplist.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 647A3703299C430B00D6A60D /* libplist.3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
-		647A3709299C430B00D6A60D /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 647A3704299C430B00D6A60D /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		64D0FA4A29A4C39B00553AFB /* LiNUZPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D0FA4929A4C39B00553AFB /* LiNUZPrefs.plist */; };
 		64D0FA4C29A4C3D400553AFB /* PlistModifier.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64D0FA4B29A4C3D400553AFB /* PlistModifier.mm */; };
-		64D4115829C1118A003770D6 /* libcrypto.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D4115729C1118A003770D6 /* libcrypto.1.1.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
-		64FED8F52995586E00DCA4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F32995586E00DCA4F3 /* Foundation.framework */; };
-		64FED8F62995586E00DCA4F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F42995586E00DCA4F3 /* CoreFoundation.framework */; };
-		64FED8F8299558D400DCA4F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F7299558D400DCA4F3 /* UIKit.framework */; };
+		64FED8F52995586E00DCA4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F32995586E00DCA4F3 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		64FED8F62995586E00DCA4F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F42995586E00DCA4F3 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		64FED8F8299558D400DCA4F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FED8F7299558D400DCA4F3 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		69F5F81A29C75F7400D60170 /* libimobiledevice.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5F81529C75F7200D60170 /* libimobiledevice.6.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		69F5F81C29C75F7400D60170 /* libusbmuxd.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5F81629C75F7300D60170 /* libusbmuxd.6.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		69F5F81E29C75F7400D60170 /* libcrypto.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5F81729C75F7300D60170 /* libcrypto.1.1.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		69F5F82029C75F7400D60170 /* libirecovery.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5F81829C75F7300D60170 /* libirecovery.3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		69F5F82229C75F7400D60170 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5F81929C75F7400D60170 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A1A306FE28A9A1B300275F72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A306FD28A9A1B300275F72 /* AppDelegate.m */; };
 		A1A3070128A9A1B300275F72 /* LiNUZE_VC.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1A3070028A9A1B300275F72 /* LiNUZE_VC.mm */; };
 		A1A3070428A9A1B300275F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A3070228A9A1B300275F72 /* Main.storyboard */; };
@@ -38,26 +36,24 @@
 		64020DBA28AAF813003E7436 /* LDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDD.h; sourceTree = "<group>"; };
 		640ED2AC29ABBB6D007F3869 /* NormalModeOperations.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NormalModeOperations.mm; sourceTree = "<group>"; };
 		640ED2AE29ABBB8D007F3869 /* NormalModeOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalModeOperations.h; sourceTree = "<group>"; };
-		640ED2E429ABBDB8007F3869 /* libimobiledevice-1.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libimobiledevice-1.0.6.dylib"; path = "../../Documents/xcode_projects/Tenorscam/Frameworks/libimobiledevice-1.0.6.dylib"; sourceTree = "<group>"; };
 		6423270128ABB7140086C961 /* SFMonoRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFMonoRegular.otf; sourceTree = "<group>"; };
-		642EE5AD29B35DEE008C790F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
 		6437177129B682840061D4D0 /* Landing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Landing.mm; sourceTree = "<group>"; };
 		6437177329B682910061D4D0 /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
 		643799F829990FA700607ECE /* USBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBUtils.h; sourceTree = "<group>"; };
 		643799F929990FA700607ECE /* USBUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = USBUtils.mm; sourceTree = "<group>"; };
 		6446AFD629BE3DD70003645F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
-		647A3700299C430B00D6A60D /* libusbmuxd.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.6.dylib; path = ../iOS_Libs/libusbmuxd.6.dylib; sourceTree = "<group>"; };
-		647A3702299C430B00D6A60D /* libirecovery.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirecovery.3.dylib; path = ../iOS_Libs/libirecovery.3.dylib; sourceTree = "<group>"; };
-		647A3703299C430B00D6A60D /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.3.dylib; path = ../iOS_Libs/libplist.3.dylib; sourceTree = "<group>"; };
-		647A3704299C430B00D6A60D /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "../iOS_Libs/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 		64D0FA4929A4C39B00553AFB /* LiNUZPrefs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LiNUZPrefs.plist; sourceTree = "<group>"; };
 		64D0FA4B29A4C3D400553AFB /* PlistModifier.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlistModifier.mm; sourceTree = "<group>"; };
 		64D0FA4D29A4C3E000553AFB /* PlistModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistModifier.h; sourceTree = "<group>"; };
-		64D4115729C1118A003770D6 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.1.dylib; path = ../iOS_Libs/libcrypto.1.1.dylib; sourceTree = "<group>"; };
 		64F6486B28C51470001CDDF2 /* NSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTask.h; sourceTree = "<group>"; };
 		64FED8F32995586E00DCA4F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64FED8F42995586E00DCA4F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		64FED8F7299558D400DCA4F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69F5F81529C75F7200D60170 /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.6.dylib; path = CI_scripts/libs/libimobiledevice.6.dylib; sourceTree = "<group>"; };
+		69F5F81629C75F7300D60170 /* libusbmuxd.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.6.dylib; path = CI_scripts/libs/libusbmuxd.6.dylib; sourceTree = "<group>"; };
+		69F5F81729C75F7300D60170 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.1.dylib; path = CI_scripts/libs/libcrypto.1.1.dylib; sourceTree = "<group>"; };
+		69F5F81829C75F7300D60170 /* libirecovery.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirecovery.3.dylib; path = CI_scripts/libs/libirecovery.3.dylib; sourceTree = "<group>"; };
+		69F5F81929C75F7400D60170 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "CI_scripts/libs/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 		A1A306F928A9A1B300275F72 /* LiNUZE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiNUZE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A306FC28A9A1B300275F72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1A306FD28A9A1B300275F72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,14 +73,12 @@
 			files = (
 				64FED8F8299558D400DCA4F3 /* UIKit.framework in Frameworks */,
 				64FED8F62995586E00DCA4F3 /* CoreFoundation.framework in Frameworks */,
-				647A3709299C430B00D6A60D /* libusb-1.0.0.dylib in Frameworks */,
-				64D4115829C1118A003770D6 /* libcrypto.1.1.dylib in Frameworks */,
-				642EE5AE29B35DEE008C790F /* IOKit.framework in Frameworks */,
+				69F5F81A29C75F7400D60170 /* libimobiledevice.6.dylib in Frameworks */,
 				64FED8F52995586E00DCA4F3 /* Foundation.framework in Frameworks */,
-				647A3705299C430B00D6A60D /* libusbmuxd.6.dylib in Frameworks */,
-				640ED2E529ABBDB8007F3869 /* libimobiledevice-1.0.6.dylib in Frameworks */,
-				647A3708299C430B00D6A60D /* libplist.3.dylib in Frameworks */,
-				647A3707299C430B00D6A60D /* libirecovery.3.dylib in Frameworks */,
+				69F5F81C29C75F7400D60170 /* libusbmuxd.6.dylib in Frameworks */,
+				69F5F81E29C75F7400D60170 /* libcrypto.1.1.dylib in Frameworks */,
+				69F5F82029C75F7400D60170 /* libirecovery.3.dylib in Frameworks */,
+				69F5F82229C75F7400D60170 /* libusb-1.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,16 +88,14 @@
 		64020DA628AAF6EB003E7436 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64D4115729C1118A003770D6 /* libcrypto.1.1.dylib */,
-				642EE5AD29B35DEE008C790F /* IOKit.framework */,
-				640ED2E429ABBDB8007F3869 /* libimobiledevice-1.0.6.dylib */,
+				69F5F81729C75F7300D60170 /* libcrypto.1.1.dylib */,
+				69F5F81529C75F7200D60170 /* libimobiledevice.6.dylib */,
+				69F5F81829C75F7300D60170 /* libirecovery.3.dylib */,
+				69F5F81929C75F7400D60170 /* libusb-1.0.0.dylib */,
+				69F5F81629C75F7300D60170 /* libusbmuxd.6.dylib */,
 				64FED8F7299558D400DCA4F3 /* UIKit.framework */,
 				64FED8F42995586E00DCA4F3 /* CoreFoundation.framework */,
 				64FED8F32995586E00DCA4F3 /* Foundation.framework */,
-				647A3702299C430B00D6A60D /* libirecovery.3.dylib */,
-				647A3703299C430B00D6A60D /* libplist.3.dylib */,
-				647A3704299C430B00D6A60D /* libusb-1.0.0.dylib */,
-				647A3700299C430B00D6A60D /* libusbmuxd.6.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -404,8 +396,8 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KDKJ9R2CR6;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -441,12 +433,17 @@
 					/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/,
 					"$(HOME)/Documents",
 					"$(HOME)/limd-build/libirecovery/include",
-					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
-					"$(PROJECT_DIR)/CI_scripts/headers/**",
+					"$(PROJECT_DIR)/CI_scripts/headers",
+					"$(PROJECT_DIR)/CI_scripts/headers/libplist/include",
+					"$(PROJECT_DIR)/CI_scripts/headers/libimobiledevice-glue/include",
+					"$(PROJECT_DIR)/CI_scripts/headers/libimobiledevice-glue/src",
+					"$(PROJECT_DIR)/CI_scripts/headers/libirecovery/include",
+					"/Library/Developer/CommandLineTools/SDKs/MacOSX*.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers",
+					"/Library/Developer/CommandLineTools/SDKs/MacOSX*.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers/**";
+				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers";
 				WARNING_CFLAGS = "-Wno-nullability-completeness";
 			};
 			name = Debug;
@@ -460,8 +457,8 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KDKJ9R2CR6;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -496,12 +493,17 @@
 					/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/,
 					"$(HOME)/Documents",
 					"$(HOME)/limd-build/libirecovery/include",
-					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
-					"$(PROJECT_DIR)/CI_scripts/headers/**",
+					"$(PROJECT_DIR)/CI_scripts/headers",
+					"$(PROJECT_DIR)/CI_scripts/headers/libplist/include",
+					"$(PROJECT_DIR)/CI_scripts/headers/libimobiledevice-glue/include",
+					"$(PROJECT_DIR)/CI_scripts/headers/libimobiledevice-glue/src",
+					"$(PROJECT_DIR)/CI_scripts/headers/libirecovery/include",
+					"/Library/Developer/CommandLineTools/SDKs/MacOSX*.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers",
+					"/Library/Developer/CommandLineTools/SDKs/MacOSX*.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers/**";
+				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers";
 				WARNING_CFLAGS = "-Wno-nullability-completeness";
 			};
 			name = Release;
