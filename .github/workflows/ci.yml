@@ -31,7 +31,9 @@ jobs:
     - name: env
       run: pwd && ls && cat IOKit/IOKitLib.h
     - name: install ldid
-      run: brew install ldid && which ldid
+      run: brew install ldid
+    - name: install dpkg
+      run: brew install dpkg
     - name: build
       run: ./compile
     - name: upload LiNUZE deb
