@@ -34,61 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64020DB828AAF7C5003E7436 /* libirecovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libirecovery.h; sourceTree = "<group>"; };
 		64020DB928AAF813003E7436 /* LDD.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LDD.mm; sourceTree = "<group>"; };
 		64020DBA28AAF813003E7436 /* LDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDD.h; sourceTree = "<group>"; };
 		640ED2AC29ABBB6D007F3869 /* NormalModeOperations.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NormalModeOperations.mm; sourceTree = "<group>"; };
 		640ED2AE29ABBB8D007F3869 /* NormalModeOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalModeOperations.h; sourceTree = "<group>"; };
-		640ED2B029ABBBE1007F3869 /* Structure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structure.h; sourceTree = "<group>"; };
-		640ED2B129ABBBE1007F3869 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
-		640ED2B229ABBBE1007F3869 /* Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
-		640ED2B329ABBBE1007F3869 /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
-		640ED2B429ABBBE1007F3869 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		640ED2B529ABBBE1007F3869 /* Real.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Real.h; sourceTree = "<group>"; };
-		640ED2B629ABBBE1007F3869 /* Boolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boolean.h; sourceTree = "<group>"; };
-		640ED2B729ABBBE1007F3869 /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
-		640ED2B829ABBBE1007F3869 /* plist++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "plist++.h"; sourceTree = "<group>"; };
-		640ED2B929ABBBE1007F3869 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
-		640ED2BA29ABBBE1007F3869 /* Integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Integer.h; sourceTree = "<group>"; };
-		640ED2BB29ABBBE1007F3869 /* plist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plist.h; sourceTree = "<group>"; };
-		640ED2BC29ABBBE1007F3869 /* Uid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uid.h; sourceTree = "<group>"; };
-		640ED2BD29ABBBE1007F3869 /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
-		640ED2BF29ABBBE1007F3869 /* installation_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = installation_proxy.h; sourceTree = "<group>"; };
-		640ED2C029ABBBE1007F3869 /* companion_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = companion_proxy.h; sourceTree = "<group>"; };
-		640ED2C129ABBBE1007F3869 /* notification_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notification_proxy.h; sourceTree = "<group>"; };
-		640ED2C229ABBBE1007F3869 /* restore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = restore.h; sourceTree = "<group>"; };
-		640ED2C329ABBBE1007F3869 /* mobilebackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilebackup.h; sourceTree = "<group>"; };
-		640ED2C429ABBBE1007F3869 /* misagent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misagent.h; sourceTree = "<group>"; };
-		640ED2C529ABBBE1007F3869 /* property_list_service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = property_list_service.h; sourceTree = "<group>"; };
-		640ED2C629ABBBE1007F3869 /* service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service.h; sourceTree = "<group>"; };
-		640ED2C729ABBBE1007F3869 /* mobileactivation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobileactivation.h; sourceTree = "<group>"; };
-		640ED2C829ABBBE1007F3869 /* screenshotr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screenshotr.h; sourceTree = "<group>"; };
-		640ED2C929ABBBE1007F3869 /* idevicerestore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idevicerestore.h; sourceTree = "<group>"; };
-		640ED2CA29ABBBE1007F3869 /* file_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_relay.h; sourceTree = "<group>"; };
-		640ED2CB29ABBBE1007F3869 /* heartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heartbeat.h; sourceTree = "<group>"; };
-		640ED2CC29ABBBE1007F3869 /* preboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preboard.h; sourceTree = "<group>"; };
-		640ED2CD29ABBBE1007F3869 /* mobilebackup2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilebackup2.h; sourceTree = "<group>"; };
-		640ED2CE29ABBBE1007F3869 /* libirecovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libirecovery.h; sourceTree = "<group>"; };
-		640ED2CF29ABBBE1007F3869 /* mobile_image_mounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobile_image_mounter.h; sourceTree = "<group>"; };
-		640ED2D029ABBBE1007F3869 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		640ED2D129ABBBE1007F3869 /* lockdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockdown.h; sourceTree = "<group>"; };
-		640ED2D229ABBBE1007F3869 /* syslog_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syslog_relay.h; sourceTree = "<group>"; };
-		640ED2D329ABBBE1007F3869 /* normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normal.h; sourceTree = "<group>"; };
-		640ED2D429ABBBE1007F3869 /* webinspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webinspector.h; sourceTree = "<group>"; };
-		640ED2D529ABBBE1007F3869 /* libimobiledevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libimobiledevice.h; sourceTree = "<group>"; };
-		640ED2D629ABBBE1007F3869 /* debugserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debugserver.h; sourceTree = "<group>"; };
-		640ED2D729ABBBE1007F3869 /* sbservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbservices.h; sourceTree = "<group>"; };
-		640ED2D829ABBBE1007F3869 /* recovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recovery.h; sourceTree = "<group>"; };
-		640ED2D929ABBBE1007F3869 /* reverse_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverse_proxy.h; sourceTree = "<group>"; };
-		640ED2DA29ABBBE1007F3869 /* diagnostics_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diagnostics_relay.h; sourceTree = "<group>"; };
-		640ED2DB29ABBBE1007F3869 /* afc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afc.h; sourceTree = "<group>"; };
-		640ED2DC29ABBBE1007F3869 /* mobilesync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilesync.h; sourceTree = "<group>"; };
-		640ED2DD29ABBBE1007F3869 /* house_arrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = house_arrest.h; sourceTree = "<group>"; };
-		640ED2DF29ABBBE1007F3869 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		640ED2E029ABBBE1007F3869 /* termcolors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = termcolors.h; sourceTree = "<group>"; };
-		640ED2E129ABBBE1007F3869 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
-		640ED2E229ABBBE1007F3869 /* collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collection.h; sourceTree = "<group>"; };
-		640ED2E329ABBBE1007F3869 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
 		640ED2E429ABBDB8007F3869 /* libimobiledevice-1.0.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libimobiledevice-1.0.6.dylib"; path = "../../Documents/xcode_projects/Tenorscam/Frameworks/libimobiledevice-1.0.6.dylib"; sourceTree = "<group>"; };
 		6423270128ABB7140086C961 /* SFMonoRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFMonoRegular.otf; sourceTree = "<group>"; };
 		642EE5AD29B35DEE008C790F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
@@ -159,77 +108,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		640ED2AF29ABBBE1007F3869 /* plist */ = {
-			isa = PBXGroup;
-			children = (
-				640ED2B029ABBBE1007F3869 /* Structure.h */,
-				640ED2B129ABBBE1007F3869 /* Data.h */,
-				640ED2B229ABBBE1007F3869 /* Key.h */,
-				640ED2B329ABBBE1007F3869 /* Date.h */,
-				640ED2B429ABBBE1007F3869 /* Node.h */,
-				640ED2B529ABBBE1007F3869 /* Real.h */,
-				640ED2B629ABBBE1007F3869 /* Boolean.h */,
-				640ED2B729ABBBE1007F3869 /* Dictionary.h */,
-				640ED2B829ABBBE1007F3869 /* plist++.h */,
-				640ED2B929ABBBE1007F3869 /* Array.h */,
-				640ED2BA29ABBBE1007F3869 /* Integer.h */,
-				640ED2BB29ABBBE1007F3869 /* plist.h */,
-				640ED2BC29ABBBE1007F3869 /* Uid.h */,
-				640ED2BD29ABBBE1007F3869 /* String.h */,
-			);
-			path = plist;
-			sourceTree = "<group>";
-		};
-		640ED2BE29ABBBE1007F3869 /* libimobiledevice */ = {
-			isa = PBXGroup;
-			children = (
-				640ED2BF29ABBBE1007F3869 /* installation_proxy.h */,
-				640ED2C029ABBBE1007F3869 /* companion_proxy.h */,
-				640ED2C129ABBBE1007F3869 /* notification_proxy.h */,
-				640ED2C229ABBBE1007F3869 /* restore.h */,
-				640ED2C329ABBBE1007F3869 /* mobilebackup.h */,
-				640ED2C429ABBBE1007F3869 /* misagent.h */,
-				640ED2C529ABBBE1007F3869 /* property_list_service.h */,
-				640ED2C629ABBBE1007F3869 /* service.h */,
-				640ED2C729ABBBE1007F3869 /* mobileactivation.h */,
-				640ED2C829ABBBE1007F3869 /* screenshotr.h */,
-				640ED2C929ABBBE1007F3869 /* idevicerestore.h */,
-				640ED2CA29ABBBE1007F3869 /* file_relay.h */,
-				640ED2CB29ABBBE1007F3869 /* heartbeat.h */,
-				640ED2CC29ABBBE1007F3869 /* preboard.h */,
-				640ED2CD29ABBBE1007F3869 /* mobilebackup2.h */,
-				640ED2CE29ABBBE1007F3869 /* libirecovery.h */,
-				640ED2CF29ABBBE1007F3869 /* mobile_image_mounter.h */,
-				640ED2D029ABBBE1007F3869 /* common.h */,
-				640ED2D129ABBBE1007F3869 /* lockdown.h */,
-				640ED2D229ABBBE1007F3869 /* syslog_relay.h */,
-				640ED2D329ABBBE1007F3869 /* normal.h */,
-				640ED2D429ABBBE1007F3869 /* webinspector.h */,
-				640ED2D529ABBBE1007F3869 /* libimobiledevice.h */,
-				640ED2D629ABBBE1007F3869 /* debugserver.h */,
-				640ED2D729ABBBE1007F3869 /* sbservices.h */,
-				640ED2D829ABBBE1007F3869 /* recovery.h */,
-				640ED2D929ABBBE1007F3869 /* reverse_proxy.h */,
-				640ED2DA29ABBBE1007F3869 /* diagnostics_relay.h */,
-				640ED2DB29ABBBE1007F3869 /* afc.h */,
-				640ED2DC29ABBBE1007F3869 /* mobilesync.h */,
-				640ED2DD29ABBBE1007F3869 /* house_arrest.h */,
-			);
-			path = libimobiledevice;
-			sourceTree = "<group>";
-		};
-		640ED2DE29ABBBE1007F3869 /* libimobiledevice-glue */ = {
-			isa = PBXGroup;
-			children = (
-				640ED2DF29ABBBE1007F3869 /* utils.h */,
-				640ED2E029ABBBE1007F3869 /* termcolors.h */,
-				640ED2E129ABBBE1007F3869 /* thread.h */,
-				640ED2E229ABBBE1007F3869 /* collection.h */,
-				640ED2E329ABBBE1007F3869 /* socket.h */,
-			);
-			path = "libimobiledevice-glue";
-			sourceTree = "<group>";
-		};
 		A1A306F028A9A1B300275F72 = {
 			isa = PBXGroup;
 			children = (
@@ -262,7 +140,6 @@
 				6423270128ABB7140086C961 /* SFMonoRegular.otf */,
 				64D0FA4929A4C39B00553AFB /* LiNUZPrefs.plist */,
 				A1A3070B28A9A1B500275F72 /* main.m */,
-				64020DB828AAF7C5003E7436 /* libirecovery.h */,
 				64020DBA28AAF813003E7436 /* LDD.h */,
 				64020DB928AAF813003E7436 /* LDD.mm */,
 				6437177329B682910061D4D0 /* Landing.h */,
@@ -274,9 +151,6 @@
 				640ED2AE29ABBB8D007F3869 /* NormalModeOperations.h */,
 				64D0FA4D29A4C3E000553AFB /* PlistModifier.h */,
 				64D0FA4B29A4C3D400553AFB /* PlistModifier.mm */,
-				640ED2BE29ABBBE1007F3869 /* libimobiledevice */,
-				640ED2DE29ABBBE1007F3869 /* libimobiledevice-glue */,
-				640ED2AF29ABBBE1007F3869 /* plist */,
 			);
 			path = LiNUZE;
 			sourceTree = "<group>";
@@ -546,7 +420,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(HOME)/Desktop/iOS_Libs",
 					/usr/local/lib,
-					"$(PROJECT_DIR)/CI_scripts/",
+					"$(PROJECT_DIR)/CI_scripts/libs",
 					"$(HOME)/Downloads",
 				);
 				MARKETING_VERSION = "developer release";
@@ -569,7 +443,7 @@
 					"$(HOME)/limd-build/libirecovery/include",
 					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
-					"$(PROJECT_DIR)/CI_scripts",
+					"$(PROJECT_DIR)/CI_scripts/headers/**",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers/**";
@@ -602,7 +476,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(HOME)/Desktop/iOS_Libs",
 					/usr/local/lib,
-					"$(PROJECT_DIR)/CI_scripts/",
+					"$(PROJECT_DIR)/CI_scripts/libs",
 					"$(HOME)/Downloads",
 				);
 				MARKETING_VERSION = "developer release";
@@ -624,7 +498,7 @@
 					"$(HOME)/limd-build/libirecovery/include",
 					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
-					"$(PROJECT_DIR)/CI_scripts",
+					"$(PROJECT_DIR)/CI_scripts/headers/**",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(HOME)/Desktop/limd_headers/**";
