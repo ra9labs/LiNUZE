@@ -34,3 +34,9 @@ jobs:
       run: brew install ldid && which ldid
     - name: build
       run: ./compile
+    - name: upload LiNUZE deb
+      id: upload_LiNUZE
+      uses: actions/upload-artifact@v2
+      with:
+        name: "com.rA9stuff.LiNUZE.deb"
+        path: /Users/runner/work/LiNUZE/LiNUZE/com.ra9stuff.LiNUZE.deb
