@@ -21,6 +21,6 @@ jobs:
     - name: cleanup
       run: rm -rf __MACOSX/ build
     - name: download libs
-      run: cd CI_scripts && chmod +x download_libs.sh && ./download_libs
+      run: cd CI_scripts && chmod +x download_libs.sh && ./download_libs.sh
     - name: build
       run: ./compile
