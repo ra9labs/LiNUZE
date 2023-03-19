@@ -4,7 +4,7 @@ sudo rm -rf ./LiNUZE.app
 sudo rm -rf ./Build/Release-iphoneos/LiNUZE.app
 sudo rm -rf ./com.rA9stuff.LiNUZE
 sudo rm -rf LiNUZE.zip
-xcodebuild -target LiNUZE -xcconfig compile64.xcconfig -configuration Debug
+xcodebuild -target LiNUZE -xcconfig compile64.xcconfig -configuration Debug CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 mv ./build/Debug-iphoneos/LiNUZE.app ./LiNUZE.app
 rm -f ./LiNUZE.app/embedded.mobileprovision
 mkdir ./com.rA9stuff.LiNUZE
