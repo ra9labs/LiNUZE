@@ -433,6 +433,7 @@
 					/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/,
 					"$(HOME)/Documents",
 					"$(HOME)/limd-build/libirecovery/include",
+					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/LiNUZE",
 					"$(PROJECT_DIR)/CI_scripts/headers",
 					"$(PROJECT_DIR)/CI_scripts/headers/libplist/include",
