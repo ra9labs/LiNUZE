@@ -546,7 +546,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(HOME)/Desktop/iOS_Libs",
 					/usr/local/lib,
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CI_scripts/",
 					"$(HOME)/Downloads",
 				);
 				MARKETING_VERSION = "developer release";
@@ -566,6 +566,7 @@
 					"/usr/local/include/libimobiledevice-glue",
 					/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/,
 					"$(HOME)/Documents",
+					"$(HOME)/limd-build/libirecovery/include",
 					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
 				);
@@ -600,7 +601,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(HOME)/Desktop/iOS_Libs",
 					/usr/local/lib,
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CI_scripts/",
 					"$(HOME)/Downloads",
 				);
 				MARKETING_VERSION = "developer release";
@@ -619,6 +620,7 @@
 					"/usr/local/include/libimobiledevice-glue",
 					/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/,
 					"$(HOME)/Documents",
+					"$(HOME)/limd-build/libirecovery/include",
 					"$(HOME)/Desktop/limd_headers/**",
 					"$(PROJECT_DIR)/LiNUZE",
 				);
